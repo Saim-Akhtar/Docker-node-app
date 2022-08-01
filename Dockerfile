@@ -1,7 +1,7 @@
 FROM node:10
 
 # Create app directory
-WORKDIR /home/saim/Docker/Node app/sample node app
+WORKDIR /home/sample-node-app
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
